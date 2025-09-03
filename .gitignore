@@ -1,0 +1,71 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Maya
+*.swatches
+*.mayaSwatches
+*.melc
+*.log
+*.bak
+*.tmp
+*.autosave/
+*.pickWalk
+
+# Houdini
+*.hipnc~
+*.hiplc~
+*.idx
+*.picnc
+*.piclc
+__pycache__/
+houdini_temp/
+*.simdata
+*.sim
+
+# ZBrush
+QuickSave/
+*.ZBrushRecover
+*.zbr
+*.zbc
+*.bak
+
+# General cache & backups
+*.tmp
+*.temp
+*.bak
+*.old
+*.backup
+*.lock
+*.log
+*.aux
+*.cache
+*.db
+*.pid
+*.suo
+*.user
+*.ncb
+
+# Render outputs
+renders/
+output/
+*.exr
+*.png
+*.jpg
+*.tif
+*.mp4
+*.avi
+*.mov
+*.wav
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.iml
+
+# Python/Script artifacts
+*.pyc
+*.pyo
+__pycache__/

@@ -1,0 +1,43 @@
+# Treat major 3D file types as binary (no diff/merge attempts)
+*.ma binary
+*.mb binary
+*.hip binary
+*.hiplc binary
+*.hipnc binary
+*.otl binary
+*.hda binary
+*.ztl binary
+*.zpr binary
+*.obj binary
+*.fbx binary
+*.abc binary
+*.usd binary
+*.usda binary
+*.usdc binary
+*.blend binary
+*.c4d binary
+*.max binary
+
+# Common image & media formats
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.tif binary
+*.exr binary
+*.hdr binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.wav binary
+*.mp3 binary
+
+# Text files should normalize to LF on commit
+*.py text eol=lf
+*.mel text eol=lf
+*.txt text eol=lf
+*.md  text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
